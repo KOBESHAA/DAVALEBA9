@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/Open_Sans.zip');
+}   
+.first {
+    width: 0; 
+    float: left;
+}
+.second {
+    margin-left: 50%;
+}
+#newyork {
+    position: absolute;
+}
+body {
+    display: flex;
+}
+* { 
+    margin: 0;
+    padding: 0;
+}
+#toggle {
+    height: 20px;
+}
+.toggle {
+    display: flex;
+}
+a {
+   margin-left: 3px;
+   margin-right: 3px;
+   color: #ED2980;
+}
+.logos{
+    width: 45px;
+    height: 45px;
+    border-radius: 22px;
+}
+.tglogo {
+
+    width: 45px;
+    height: 45px;
+}
+p {
+    margin-top: 20px;
+    color: #003D61;
+}
+.middle {
+    margin-left: 60px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+form {
+    position: absolute;
+    margin-left: 0;
+}
+label {
+    color: #003D61;
+}
